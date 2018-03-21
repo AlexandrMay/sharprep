@@ -29,7 +29,7 @@ namespace ConsoleApplication1
             result = operand1 & operand2;
             Console.WriteLine("{0} AND {1} = {2}", operand1, operand2, result);
 
-            byte aa = 0x81;
+            byte aa = 0x71;
             aa = (byte)(aa << 2);
             Console.WriteLine(aa);
             aa = (byte)(aa >> 1);
